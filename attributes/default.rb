@@ -13,10 +13,10 @@ default[:tileserver][:gunicorn][:access_log_format] = '%(h)s %(l)s %(u)s %(t)s "
 
 default[:tileserver][:runit][:svwait] = 180
 
-default[:tileserver][:revision][:tilestache] = 'integration-1'
-default[:tileserver][:revision][:tilequeue] = 'master'
+default[:tileserver][:revision][:tilestache] = 'v0.7.0'
+default[:tileserver][:revision][:tilequeue] = 'v0.7.0'
 default[:tileserver][:revision][:mapbox_vector_tile] = 'master'
-default[:tileserver][:revision][:tileserver] = 'master'
+default[:tileserver][:revision][:tileserver] = 'v0.5.0'
 
 default[:tileserver][:pip_requirements_pypi] = %w(
   argparse==1.2.1
